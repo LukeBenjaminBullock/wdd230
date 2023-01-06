@@ -21,11 +21,6 @@ body {
     align-items: center;
 }
 
-.footer-box {
-    grid-template-rows: auto;
-    align-items: center;
-}
-
 .portrait {
     width: 100px; 
     padding: 30px; 
@@ -40,6 +35,19 @@ hr {
     width: 50%;  
     text-align: left;
     margin-left: 1em;
+}
+
+li {
+    color: #BF9631;
+}
+
+a:link {
+    color: #94fdff;
+}
+
+.footer-box {
+    grid-template-rows: auto;
+    align-items: center;
 }
 
 footer {
