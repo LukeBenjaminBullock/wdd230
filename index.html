@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <meta name="descrition" content="This is a websight belonging to Luke Bullock, that will be used 
+    to provide homework to be graded in the form of links to different pages of the websight.">
+    <title>My Portal</title>
 </head>
 <body>
-    <h1>Testing</h1>
-    <footer>Hello World</footer>
-    <p><a href="Projects/wdd-javascriptformatted-current-date/dist/index.html">Week 1 Activity</a></p>
+    <header>
+        <div class="header-box">
+            <img class="portrait" src="images/portrait.jpg" alt="Portrait">
+            <h1 id="mainPageTitle">Luke B. Bullock</h1>
+        </div>
+    </header>
+
+    <main>
+        <h1>WDD 230: Assignment Portal</h1>
+        <hr>
+        <ul>
+            <li>Lesson 01: <a href="projects/week_1/dist/index.html">Week 1 Activity</a> </li>
+        </ul>
+        <hr>
+    </main>
+    
+    <footer>
+        <div class="footer-box">
+            <h2 class="copywrightText"> &#169; <span id="currentYear"></span> .:|:. Luke B. Bullock .:|:. Alberta</h2>
+            <h2 class="update">Last Updated: <span id="dynamicTimeStamp"></span></h2> <!-- TODO: Update to code later  01/06/2021 10:36:55-->
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
