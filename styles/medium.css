@@ -1,0 +1,33 @@
+@media only screen and (min-width: 32.5em) {
+    .header-box, .footer-box {
+    
+        height: 12em;
+        width: 30em; 
+    }
+    .portrait {
+        width: 100px;
+        padding: 30px; 
+    }
+
+    #mainPageTitle { 
+        font-size: 40px;
+    }
+
+    .header-box {
+        grid-template-columns: 140px 300px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .copywrightText {
+        padding-top: 30px; 
+        font-size: 25px;
+    }
+    
+    .update {
+        color: yellow; 
+        font-size: 16px;
+    }
+}

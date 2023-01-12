@@ -1,38 +1,53 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    max-width: 750px; 
+    font-family: 'Lora', 'Playfair Display', Times, 'Times New Roman', serif; 
     background-color: rgb(0, 0, 0);
     color: rgb(138, 109, 36);
 }
 
+main {
+    display: flex;
+}
+
+.content-box {
+    margin: auto;
+}
+
 .header-box, .footer-box {
     
-    height: 12em;
-    width: 30em; 
+    height: 8em;
+    width: 90%; 
     background-color: rgb(0, 47, 165);
     padding: 1em;
     text-align: center;
     box-shadow: 10px 10px 30px #5c1919;
+    margin: auto;
 }
 
 .header-box {
     display: grid; 
     grid-template-columns: 140px auto;
     align-items: center;
+    justify-content: center;
+}
+
+#portrait-box{
+    display: flex;
 }
 
 .portrait {
-    width: 100px; 
-    padding: 30px; 
+    width: 80px; 
 }
 
 #mainPageTitle {
     color: yellow; 
-    font-size: 40px;
+    font-size: 1fr;
 }
 
-hr {
-    width: 50%;  
+h1 {
+    font-size: 1.4em;
+}
+
+hr {  
     text-align: left;
     margin-left: 1em;
 }
@@ -55,11 +70,12 @@ footer {
 }
 
 .copywrightText {
-    padding-top: 30px; 
+    padding-top: 1fr; 
+    font-size: 18px;
     color: rgb(0, 251, 255);
 }
 
 .update {
     color: yellow; 
-    font-size: 14px;
+    font-size: 12px;
 }
