@@ -1,0 +1,146 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;  
+	font-size: 18px; 
+	text-align: center;
+	padding: 0em 2em 0em 2em;
+}
+
+header,
+footer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	background-color: #a9ff14;
+	background-color: #2a0047;
+	background-color: #1AE6DA;
+	background-color: #000000;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 15px auto;
+}
+
+nav {
+	background-color: #2a0047;
+	text-align: center;
+	box-shadow: 0 0 30px #1AE6DA;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+	color: #1AE6DA;
+}
+
+nav a:hover {
+	background-color: #000000;
+	color: #a9ff14;
+}
+
+#logo {
+	width: 75%;
+}
+
+.colors {
+	width: 100%;
+	min-width: 350px;
+	margin: 30px auto;
+	text-align: center;
+  }
+
+  .colors th {
+	background-color: #999;
+  }
+
+.primary {
+	background-color: #000000;
+	color: white;
+}
+
+.secondary {
+	background-color: #1AE6DA;
+}
+
+.accent1 {
+	background-color: #a9ff14;
+}
+
+.accent2 {
+	background-color: #2a0047;
+	color: white;
+}
+
+.font1-example, h3 {
+	font-family: 'Cinzel', serif;
+}
+
+.font2-example, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.colored {
+	background-color: #000000;
+	color: #1AE6DA;
+}
+
+.persona-box {
+	background-color: #00000015;
+	display: grid;
+	grid-template-columns:	50% 50%;
+	padding: 1%;
+	margin: 0px 0px 15% 0px;
+}
+
+.table-square {
+	margin: 2%;
+	padding: 3%;
+	outline: solid 2px grey;
+}
+
+.table-img {
+	width: 100%;
+}
+
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	main picture {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+}
+
+
