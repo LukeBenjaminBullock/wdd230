@@ -1,7 +1,11 @@
 @media (min-width: 1024px) {
     main {
         display: grid; 
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33.3% 33.3% 33.3%;
         grid-template-rows: none;
+    }
+
+    footer {
+        text-align: center;
     }
 }
