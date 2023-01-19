@@ -2,7 +2,22 @@
     main {
         display: grid; 
         grid-template-columns: 33.3% 33.3% 33.3%;
-        grid-template-rows: none;
+        grid-template-rows: 1fr;
+    }
+
+    #fitts-law-box {
+        grid-column: 1/2;
+        grid-row: auto;
+    } 
+    
+    #proximity-box {
+        grid-column: 2/3;
+        grid-row: auto;
+    } 
+    
+    #contrast-box {
+        grid-column: 3/4;
+        grid-row: auto;
     }
 
     footer {

@@ -1,3 +1,21 @@
+main {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 100%;
+}
+
+#fitts-law-box {
+    grid-row: 1/2;
+} 
+
+#proximity-box {
+    grid-row: 2/3;
+} 
+
+#contrast-box {
+    grid-row: 3/4;
+}
+
 body {
     font-family: "Indie Flower", cursive;
 }
@@ -42,6 +60,7 @@ h4 {
     border: 1px solid #000000;
     background-color: rgb(230, 255, 254);
 }
+
 
 a {
     padding: 10px;
