@@ -4,8 +4,6 @@
     }
 
     main div {
-        margin: none;
-        padding: none;
         height: auto;
     }
 
@@ -59,7 +57,6 @@
     #Content-1 {
         grid-column: 2/3;
         grid-row: 1/2;
-        align-items: left;
         display: flex;
         justify-content: center;
     }
@@ -74,14 +71,19 @@
     #Content-3 {
         grid-column: 1/5;
         grid-row: 3/4;
-        align-items: center;
-        justify-content: center;
         display: inline;
         padding: 20px;
+        text-align: center;
     }
 
     #Content-3 p {
         display: inline;
+        
+    }
+
+    #Content-3 h2 {
+        display: inline;
+        
     }
 
     hr {

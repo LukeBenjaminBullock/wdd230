@@ -25,7 +25,7 @@ p {
     font-family: 'Cinzel', serif;
 }
 
-p2 {
+h2 {
     font-size: 12px;
 }
 
@@ -174,7 +174,7 @@ footer {
     padding-top: 10px; 
 }
 
-#Content-2 p2 {
+#Content-2 h2 {
     padding: 10px;
 }
 
