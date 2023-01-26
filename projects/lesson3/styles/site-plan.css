@@ -120,6 +120,9 @@ nav a:hover {
 	width: 100%;
 }
 
+ul {
+	text-align: left;
+}
 
 @media (min-width: 37.5em) {
 	nav {
