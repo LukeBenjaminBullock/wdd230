@@ -59,6 +59,7 @@
         grid-row: 1/2;
         display: flex;
         justify-content: center;
+        justify-self: self-start;
     }
 
     #Content-2 {
