@@ -17,3 +17,12 @@ function toggleMenu() {
 
 const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
+
+// ! display a message only on tusedays. 
+const displayAd = document.getElementById("meeting-ad");
+
+const day = d.getDay(); 
+
+if (day !== 2) {
+    displayAd.style.display = "none";
+}

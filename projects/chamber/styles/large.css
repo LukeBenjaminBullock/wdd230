@@ -41,6 +41,10 @@
         grid-column: 2/4;
     }
 
+    #hero-img {
+        margin-top: 0px;
+    }
+
     #news-Release {
         grid-row: 3/4;
         grid-column: 2/4;
@@ -56,12 +60,13 @@
         display: block;
         border-width: 2px;
         border: solid;
-        border-color:rgba(0, 0, 0, 0.5);
+        border-color:#1ae6d881;
         margin: 0px;
     }
 
     #join-box {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     #spotlight-1, #spotlight-2, #spotlight-3 {

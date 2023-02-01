@@ -18,6 +18,10 @@
         grid-column: 1/5;
     }
 
+    #hero-img {
+        margin-top: -70px;
+    }
+
     #news-Release {
         grid-row: 2/3;
         grid-column: 1/5;
