@@ -240,3 +240,8 @@ footer {
 #Content-3 p {
     display: none;
 }
+
+#meeting-ad {
+    text-align: center;
+    margin: 20px;
+}
