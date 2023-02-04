@@ -48,6 +48,13 @@ header p {
     padding: 10px;
 }
 
+#hamburgerBtn.closed {
+    position: absolute;
+    top: 5px;
+    right: 20px; 
+    background-color: black;
+}
+
 #logo {
     width: 90px;
     height: auto;
@@ -70,8 +77,12 @@ header img {
     border-radius: 10px;
 }
 
-#icons {
-    margin-right: 10px;
+#icons.closed {
+    margin-right: 60px;
+}
+
+#icons.open {
+    margin-right: none;
 }
 
 h1, p {margin: 0 2vw;}
@@ -244,4 +255,12 @@ footer {
 #meeting-ad {
     text-align: center;
     margin: 20px;
+}
+
+#map-link a{
+    text-decoration: none;
+}
+
+#map-link a:visited{
+    color: rgb(255, 0, 217);
 }

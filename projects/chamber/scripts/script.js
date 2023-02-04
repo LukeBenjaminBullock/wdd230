@@ -11,11 +11,23 @@ document.getElementById("date-head").innerHTML = lastModification.toLocaleDateSt
 
 // ! Change hamburger icon
 function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
+    const primaryNav = document.getElementById("primaryNav");
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const icons = document.getElementById("icons");
+    primaryNav.classList.toggle("open");
+    hamburgerBtn.classList.toggle("open");
+    icons.classList.toggle("open");
+    if (!primaryNav.classList.contains("open")) {
+        hamburgerBtn.classList.add("closed");
+        icons.classList.add("closed");
+        
+    } else {
+        hamburgerBtn.classList.remove("closed");
+        icons.classList.remove("closed");
+    }
 }
 
-const x = document.getElementById("hamburgerBtn")
+const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 // ! display a message only on tusedays. 
