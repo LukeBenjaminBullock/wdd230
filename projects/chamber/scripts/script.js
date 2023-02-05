@@ -10,6 +10,17 @@ document.getElementById("date-head").innerHTML = lastModification.toLocaleDateSt
 {weekday: "long", year: "numeric", month: "long", day: "numeric"});
 
 // ! Change hamburger icon
+window.onload = function() {
+    const primaryNav = document.getElementById("primaryNav");
+    const hamburgerBtn = document.getElementById("hamburgerBtn");
+    const icons = document.getElementById("icons");
+  
+    if (!primaryNav.classList.contains("open")) {
+      hamburgerBtn.classList.add("closed");
+      icons.classList.add("closed");
+    }
+  };
+
 function toggleMenu() {
     const primaryNav = document.getElementById("primaryNav");
     const hamburgerBtn = document.getElementById("hamburgerBtn");
