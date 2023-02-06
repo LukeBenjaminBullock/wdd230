@@ -18,7 +18,7 @@
 <body>
     <header>
         <div id="top-box">
-            <img id="logo" src="images/fulllogo.jpg" alt="Logo image">
+            <img id="logo" src="images/fulllogo.webp" alt="Logo image">
             <div id="header-text">
                 <p>LethoCom </p>
                 <h2>Chamber of Commerce </h2>
@@ -47,9 +47,12 @@
     <main>
         <div id="hero-box">
             <p>Welcome to Lethrbridge</p>
+            <!--! I need help with the following code. -->
             <img id="hero-img" src="images/placeholder-hero-original.jpg"
-            srcset="images/placeholder-hero-500.jpg, images/placeholder-hero-1000.jpg, images/placeholder-hero-800" 
-            sizes="(max-width: 35rem) 500px, (max-width: 64rem) 1000px, 800px"
+            srcset="images/placeholder-hero-small-500.jpg, 
+            images/placeholder-hero-medium-1000.jpg, 
+            images\placeholder-hero-large-800.png" 
+            sizes="(max-width: 560em) 500px, (max-width: 1024rem) 1000px, 800px"
             alt="Photo of Lethbridge">
             <!--! Make sure to optimize this image later when you use the original. -->
             <button id="chamber-button">Join the Chamber</button>
@@ -62,7 +65,9 @@
         <div id="weather-box">
             <p>Weather</p>
             <!-- ! weather img -->
+            <span id="wind-temp"></span>
             <span id="weather-type"></span>
+            <hr>
             <span id="wind-speed"></span>
             <span id="wind-chill"></span>
         </div>
@@ -112,7 +117,7 @@
     </main>
 
     <footer>
-        <img id="footer-logo" src="images/fulllogo.jpg" alt="Logo image">
+        <img id="footer-logo" src="images/fulllogo.webp" alt="Logo image">
         <div id="Content-1">
             <p> LethoCom chamber of Commerce </p>
             <h2> 10 Rue De Le Paix </h2> 
@@ -140,5 +145,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
