@@ -50,7 +50,7 @@ header p {
 
 #hamburgerBtn.closed {
     position: absolute;
-    top: 5px;
+    top: 90px;
     right: 20px; 
     background-color: black;
 }
