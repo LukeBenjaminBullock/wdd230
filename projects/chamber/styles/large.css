@@ -23,7 +23,7 @@
 
     main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 200px 200px 200px;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     #event-box {
@@ -43,6 +43,8 @@
 
     #hero-img {
         margin-top: 0px;
+        height: 100%;
+        width: auto;
     }
 
     #news-Release {
@@ -70,7 +72,7 @@
     }
 
     #spotlight-1, #spotlight-2, #spotlight-3 {
-        height: 190px;
+        height: 95%;
         width: auto;
     }
 

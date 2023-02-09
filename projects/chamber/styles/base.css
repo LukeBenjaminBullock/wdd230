@@ -145,6 +145,7 @@ main div {
     height: auto;
     color: #1AE6DA;
     z-index: 0;
+    text-align: center;
 }
 
 main div p {
@@ -181,6 +182,12 @@ main div p {
     border-radius: 12px; 
 }
 
+#chamber-button:hover {
+    cursor: pointer;
+    color:#2a0047;
+    background-color: #a9ff14;
+}
+
 #hero-img {
     width: 100%;
     height: auto;
@@ -188,8 +195,17 @@ main div p {
     margin-bottom: -1%;
 }
 
+#weather-box {
+    text-align: left;
+}
+
+#news-Release {
+    text-align: left;
+}
+
 #spotlight-box {
     height: auto;
+    
 
 }
 
@@ -204,6 +220,18 @@ main div p {
     display: none;
 }
 
+.bottom-row {
+    display:flex;
+    flex-direction: row;
+    padding-top: 0px; 
+    padding-bottom: 0px;
+    justify-content: center;
+}
+
+.bottom-row h2 {
+    margin: 5px;
+}
+
 #join-box {
     display: none;
 }
@@ -216,6 +244,13 @@ main div p {
     height: 30%;
     border-radius: 5px;
     align-self: center;
+}
+
+#join-button:hover {
+    cursor: pointer;
+    background-color: #000000;
+    color:#1AE6DA;
+    border-color: #ff0000;
 }
 
 footer hr {
