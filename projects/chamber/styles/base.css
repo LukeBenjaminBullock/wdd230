@@ -82,7 +82,7 @@ header img {
 }
 
 #icons.open {
-    margin-right: none;
+    margin-right: 0px;
 }
 
 h1, p {margin: 0 2vw;}
