@@ -220,6 +220,10 @@ main div p {
     display: none;
 }
 
+#spotlight-1 img, #spotlight-2 img, #spotlight-3 img {
+    width: 100px; 
+}
+
 .bottom-row {
     display:flex;
     flex-direction: row;
