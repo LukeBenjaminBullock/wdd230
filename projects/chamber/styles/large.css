@@ -95,7 +95,7 @@
 
     #discovery-main { 
         display: grid; 
-        grid-template-rows: auto * 5;
+        grid-template-rows: auto auto auto auto auto;
         grid-template-columns: 1fr 1fr;
     }
 
