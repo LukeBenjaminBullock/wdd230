@@ -1,8 +1,34 @@
-article img[data-src] {
+/* ! First attempt */
+
+main {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 5%;
+}
+
+img {
+  border: 3px; 
+  border-color: rgb(64, 0, 255);
+  margin: 5px;
+}
+
+img[data-src] {
     filter: blur(0.2em);
   }
   
-  article img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+/* ! Second attempt */
+
+/* img {
+  min-width: 50px;
+  min-height: 50px; 
+  border: 1px solid red; 
+} */
