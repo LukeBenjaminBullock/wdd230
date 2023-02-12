@@ -6,25 +6,25 @@ document.querySelector("#current-year").textContent = year;
 const lastModification = new Date(document.lastModified);
 document.getElementById("dynamic-time-stamp").innerHTML = lastModification; 
 
-document.getElementById("date-head").innerHTML = lastModification.toLocaleDateString("en-US", 
+document.querySelector(".date-head").innerHTML = lastModification.toLocaleDateString("en-US", 
 {weekday: "long", year: "numeric", month: "long", day: "numeric"});
 
 // ! Change hamburger icon
 window.onload = function() {
-    const primaryNav = document.getElementById("primaryNav");
-    const hamburgerBtn = document.getElementById("hamburgerBtn");
-    const icons = document.getElementById("icons");
-  
+    const primaryNav = document.querySelector(".primaryNav");
+    const hamburgerBtn = document.querySelector(".hamburgerBtn");
+    const icons = document.querySelector(".icons");
+
     if (!primaryNav.classList.contains("open")) {
-      hamburgerBtn.classList.add("closed");
-      icons.classList.add("closed");
+        hamburgerBtn.classList.add("closed");
+        icons.classList.add("closed");
     }
   };
 
 function toggleMenu() {
-    const primaryNav = document.getElementById("primaryNav");
-    const hamburgerBtn = document.getElementById("hamburgerBtn");
-    const icons = document.getElementById("icons");
+    const primaryNav = document.querySelector(".primaryNav");
+    const hamburgerBtn = document.querySelector(".hamburgerBtn");
+    const icons = document.querySelector(".icons");
     primaryNav.classList.toggle("open");
     hamburgerBtn.classList.toggle("open");
     icons.classList.toggle("open");
@@ -38,15 +38,14 @@ function toggleMenu() {
     }
 }
 
-const x = document.getElementById("hamburgerBtn");
+const x = document.querySelector(".hamburgerBtn");
 x.onclick = toggleMenu;
 
 // ! display a message only on tusedays. 
-const displayAd = document.getElementById("meeting-ad");
+const displayAd = document.querySelector(".meeting-ad");
 
 const day = d.getDay(); 
 
 if (day !== 3) {
     displayAd.style.display = "none";
 }
-

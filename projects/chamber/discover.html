@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is where we show our audience optomistic 
+    statistics about lethbridge.">
+    
+    <title>Discover</title>
+</head>
+<body>
+    <header>
+        <div class="top-box">
+            <img class="logo" src="images/fulllogo.webp" alt="Logo image">
+            <div class="header-text">
+                <p>LethoCom </p>
+                <h2>Chamber of Commerce </h2>
+            </div>
+            <div class="icons"> 
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="facebook" src="images/facebook.png" alt="Facebook image">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img class="linkedin" src="images/linkedin.png" alt="Linkedin image">    
+                </a> 
+            </div>
+            <nav>
+                <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul class="primaryNav">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>    
+                </ul>
+            </nav>
+        </div>
+        <div class="header-date"><span class="date-head"></span></div> <!-- ! Date -->
+        <p class="meeting-ad">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </header>
+    <main id="discovery-main">
+        <!-- ! Each of these needs a corellating picture -->
+        
+            <div id="discovery-text-1"> 
+                <p>Buizness</p>
+                <h2>Lethbridge has 156 local buiznesses including:</h2> 
+                <li> Retail and shopping: 35.  </li>
+                <li>Food and beverage: 26 </li>
+                <li>Healthcare: 7</li>
+                <li>Professional services: 39</li>
+                <li>Construction and trade: 23 </li>
+                <li>Real estate: 12</li>
+                <li>Technology and innovation: 9</li>
+                <li>Tourisum and hospitality: 5</li>
+            </div>
+            <div id="discovery-text-2">
+                <p>Housing</p>
+                <h2>Median sale price for housing in lethbridge: 325,382.51 $</h2>
+                <h2>40,803 households within the city. With an average of 2.41 people per dwelling.</h2>
+            </div>
+            <div id="discovery-text-3">
+                <p>Family</p>
+                <h2>There are 23 schools in lethbridge, over 130 parks, and 15 resteraunts.</h2>
+            </div>
+            <div id="discovery-text-4">
+                <p>Population</p>
+                <h2>There are 92,730 people in lethbridge.</h2>
+                <li>17% 0 - 14 years old.</li>
+                <li>66% 15 - 64 years old.</li>
+                <li>2.7% 85 years old, and older</li>
+                <li>Average age: 39.7 years old</li>
+            </div>
+            <div id="discovery-text-5">
+                <p>Soup kitchen</p>
+                <li>Average people fed: 77</li>
+                <li>Most people served during 2022: 136</li>
+            </div>
+        
+        
+            <picture id="discovery-1"> <img src="images/discover/placeholder.jpg" data-src="images/discover/buisness.jpg" alt="picture"> </picture>
+            <!-- ! WHy on earth is my 147 pixels tall image only 90 pixels tall?  -->
+            <picture id="discovery-2"> <img src="images/discover/placeholder.jpg" data-src="images/discover/house.jpg" alt="picture"> </picture>
+            <picture id="discovery-3"> <img src="images/discover/placeholder.jpg" data-src="images/discover/household.jpg" alt="picture"> </picture>
+            <picture id="discovery-4"> <img src="images/discover/placeholder.jpg" data-src="images/discover/population.jpg" alt="picture"> </picture>
+            <picture id="discovery-5"> <img src="images/discover/placeholder.jpg" data-src="images/discover/soup-kitchen.jpg" alt="picture"> </picture>
+        
+        <!-- ! Display the amount of time in days between user visits to the page -->
+    </main>
+
+    <footer>
+        <img id="footer-logo" src="images/fulllogo.webp" alt="Logo image">
+        <div id="Content-1">
+            <p> LethoCom chamber of Commerce </p>
+            <h2> 10 Rue De Le Paix </h2> 
+            <h2> LethoCom, mali 999 </h2>
+        </div>
+
+        <div id="Content-2">
+            <h2> info@timbuktucc.org </h2>
+            <h2> +(223) 2070-2300 </h2>
+            <h2 id = "map-link">
+                <a href="https://www.google.com/maps/place/Lethbridge,+AB,+Canada/@49.6947989,-112.8054169,13z/data=!3m1!4b1!4m5!3m4!1s0x53766e2c2a9e9ecb:0x40d6f14cc25f71b1!8m2!3d49.7009!4d-112.833" target="_blank">
+                  &#x1F4CD; Location Map
+                </a>
+              </h2>
+        </div>
+        <hr>
+        <div id="Content-3">
+            <h2>&copy; <span id="current-year"></span></h2> <!-- Year -->
+            <p> | </p>
+            <p>Luke Benjamin Bullock</p>
+            <p> | </p>
+            <h2>WDD 230 Project</h2>
+            <p> | </p>
+            <h2>Last modification: <span id="dynamic-time-stamp"></span></h2>    
+        </div>
+    </footer>
+
+    <script src="scripts/discover.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

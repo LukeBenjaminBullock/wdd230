@@ -16,7 +16,7 @@ header, footer {
     flex-direction: column;
 }
 
-#header-text {
+.header-text {
     padding-right: 10%;
 }
 
@@ -29,7 +29,7 @@ h2 {
     font-size: 12px;
 }
 
-#top-box {
+.top-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,7 @@ header p {
     padding: 20px;
 }
 
-#header-date {
+.header-date {
     background-color: #2a0047;
     margin: 10px;
     border-width: 2px;
@@ -48,14 +48,14 @@ header p {
     padding: 10px;
 }
 
-#hamburgerBtn.closed {
+.hamburgerBtn.closed {
     position: absolute;
     top: 5px;
     right: 20px; 
     background-color: black;
 }
 
-#logo {
+.logo {
     width: 90px;
     height: auto;
     margin: 15px;
@@ -77,11 +77,11 @@ header img {
     border-radius: 10px;
 }
 
-#icons.closed {
+.icons.closed {
     margin-right: 60px;
 }
 
-#icons.open {
+.icons.open {
     margin-right: 0px;
 }
 
@@ -132,11 +132,11 @@ nav ul li a:hover {
 nav ul {display: none;}
 nav ul.open {display: block;}
 
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
+.hamburgerBtn span:nth-child(1) {display: block;}
+.hamburgerBtn span:nth-child(2) {display: none;}
 
-#hamburgerBtn.open span:nth-child(1) {display: none;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
+.hamburgerBtn.open span:nth-child(1) {display: none;}
+.hamburgerBtn.open span:nth-child(2) {display: block;}
 
 main div {
     background-color: #000000;
@@ -302,4 +302,111 @@ footer {
 
 #map-link a:visited{
     color: rgb(255, 0, 217);
+}
+
+/* !  Discover page */
+
+
+
+#statistics-box img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  #statistics-box img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  }
+
+#discovery-main { 
+    display: grid; 
+    grid-template-rows: 1fr * 10;
+    grid-template-columns: 1fr;
+}
+
+#discovery-text-1 {
+    grid-row: 1/2;
+    margin: 10px 50px 10px 50px;
+    border-radius: 70px 70px 0px 0px;
+    outline: 7px solid #2a0047;
+    text-align: left;
+    padding-left: 25%;
+}
+
+#discovery-1 {
+    grid-row: 2/3;
+    outline: 7px solid #000000;
+    border-radius: 0px 0px 70px 70px;
+    background-color: #2a0047;
+    margin: 10px 50px 10px 50px;
+    padding: 30px;
+}
+
+#discovery-text-2 {
+    grid-row: 3/4;
+    margin: 10px 50px;
+    border-radius: 70px 70px 0px 0px;
+    outline: 7px solid #2a0047;
+}
+
+#discovery-2 {
+    grid-row: 4/5;
+    outline: 7px solid #000000;
+    border-radius: 0px 0px 70px 70px;
+    background-color: #2a0047;
+    margin: 10px 50px;
+    padding: 30px;
+    height: 100%;
+
+}
+
+#discovery-text-3 {
+    grid-row: 5/6;
+    margin: 10px 50px 10px 50px;
+    border-radius: 70px 70px 0px 0px;
+    outline: 7px solid #2a0047;
+}
+
+#discovery-3 {
+    grid-row: 6/7;
+    outline: 7px solid #000000;
+    border-radius: 0px 0px 70px 70px;
+    background-color: #2a0047;
+    margin: 10px 50px 10px 50px;
+    padding: 30px;
+}
+
+#discovery-text-4 {
+    grid-row: 7/8;
+    margin: 10px 50px 10px 50px;
+    border-radius: 70px 70px 0px 0px;
+    outline: 7px solid #2a0047;
+}
+
+#discovery-4 {
+    grid-row: 8/9;
+    outline: 7px solid #000000;
+    border-radius: 0px 0px 70px 70px;
+    background-color: #2a0047;
+    margin: 10px 50px 10px 50px;
+    padding: 30px;
+}
+
+#discovery-text-5 {
+    grid-row: 9/10;
+    margin: 10px 50px 10px 50px;
+    border-radius: 70px 70px 0px 0px;
+    outline: 7px solid #2a0047;
+}
+
+#discovery-5 {
+    grid-row: 10/11;
+    outline: 7px solid #000000;
+    border-radius: 0px 0px 70px 70px;
+    background-color: #2a0047;
+    margin: 10px 50px 10px 50px;
+    padding: 30px;
+}
+
+#discovery-main {
+    text-align: center;
 }
