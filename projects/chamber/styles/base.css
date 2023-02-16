@@ -319,7 +319,7 @@ footer {
 
 #discovery-main { 
     display: grid; 
-    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(10, auto);
     grid-template-columns: 1fr;
 }
 
@@ -353,7 +353,6 @@ footer {
     background-color: #2a0047;
     margin: 10px 50px;
     padding: 30px;
-    height: 100%;
 
 }
 
