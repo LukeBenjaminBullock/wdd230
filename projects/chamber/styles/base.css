@@ -407,3 +407,11 @@ footer {
 #discovery-main {
     text-align: center;
 }
+
+.discovery-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 18%
+}
+

@@ -105,5 +105,8 @@
     }
 
     /* !  Discover page */
+    .discovery-list {
+        margin-left: 30%
+    }
 
 }
