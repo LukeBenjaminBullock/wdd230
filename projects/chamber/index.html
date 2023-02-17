@@ -47,24 +47,26 @@
 
     <main>
         <div id="hero-box">
-            <p>Welcome to Lethrbridge</p>
+            <p>Welcome to Lethbridge</p>
 
-            <!-- ! In this instance, having three different images isn't feasable.
+            <!-- ! Having three different sizes for the hero image seems like a poor choice in this case.  -->
             <img id="hero-img"
             srcset="images/placeholder-hero-small-500.jpg 500w, 
             images/placeholder-hero-medium-1000.jpg 1000w, 
-            images/large.jpg 800w" 
-            sizes="(max-width: 560px) 500px, (max-width: 1024px) 1000px, 800px"
+            images/large.jpg 1200w" <!-- ! Actually 800 pixels wide, but I had to include a large size here...-->
+            sizes="(max-width: 560px) 500px, (max-width: 1024px) 1000px, 1200px"
             src="images/placeholder-hero-original.jpg"
             alt="Photo of Lethbridge">
-            -->
+           
             
-            <img id="hero-img"
+            <!-- <img id="hero-img"
             srcset="images/placeholder-hero-small-500.jpg 500w,  
             images/large.jpg 800w" 
             sizes="(max-width: 560px) 500px, 800px"
             src="images/placeholder-hero-original.jpg"
-            alt="Photo of Lethbridge">
+            alt="Photo of Lethbridge"> -->
+
+            
 
             
             <!--! Make sure to optimize this image later when you use the original. -->
@@ -110,7 +112,7 @@
                 <div class="bottom-row">
                     <h2>(403) 380-7310</h2>
                     <h2> | </h2>
-                    <a href="http://www.lethlib.ca/" target="_self"><h2>Websight</h2></a>
+                    <a href="http://www.lethlib.ca/" target="_self"><h2>Website</h2></a>
                 </div>
             </div>
             <div id="spotlight-2">
@@ -121,7 +123,7 @@
                 <div class="bottom-row">
                     <h2>(403) 327-2272</h2>
                     <h2> | </h2>
-                    <a href="https://casalethbridge.ca/" target="_self"><h2>Websight</h2></a>
+                    <a href="https://casalethbridge.ca/" target="_self"><h2>Website</h2></a>
                 </div>
             </div>
             <div id="spotlight-3">
