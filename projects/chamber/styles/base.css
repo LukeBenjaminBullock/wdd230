@@ -431,3 +431,82 @@ footer {
     margin-left: 18%
 }
 
+/* ! Join page */
+
+#join-us-title {
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 1px 1px 0px #1AE6DA;
+    font-size: 50px;
+}
+
+#join-main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(8, auto);
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+    }
+
+.form-group label {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.form-group input[type="radio"] {
+    margin: 0;
+    vertical-align: middle;
+    grid-column: 1/2;
+}
+
+.radio-lable {
+    display: grid; 
+    grid-template-columns: 20% 80%;
+}
+
+.form-group input,
+.form-group textarea {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    margin: 20px;
+
+}
+
+form {
+    margin-left: 50px;
+}
+
+#submit-button {
+    width: 30%;
+}
+
+/* ! Thank you page */
+
+#thankyou-main {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#thankyou-main section {
+    margin: 10%;
+    padding: 5%;
+    background-color:#cafffb;
+}
