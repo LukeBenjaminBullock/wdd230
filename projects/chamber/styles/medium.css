@@ -109,4 +109,13 @@
         margin-left: 30%
     }
 
+    #discovery-1 img:hover, #discovery-2 img:hover, #discovery-3 img:hover,  #discovery-4 img:hover,  #discovery-5 img:hover {
+        width: 70%; 
+    }
+
+    #discovery-1:hover, #discovery-2:hover, #discovery-3:hover,  #discovery-4:hover,  #discovery-5:hover {
+        background-color:#1AE6DA;  
+        margin: 0px; 
+    }
+
 }
