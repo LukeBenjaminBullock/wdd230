@@ -1,0 +1,43 @@
+.cards {
+    background-color:rgba(120, 112, 96, 0.29);
+    padding: 10px; 
+
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.cards section {
+    background-color: rgba(75, 60, 23, 0.363);
+    color: rgb(0, 0, 111);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4b3c17;
+    margin: 5px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    color: rgb(0, 0, 111);
+}
+
+footer {
+    text-align: center;
+}
+
+.cards img {
+    width: 70%;
+    height: auto;
+}
+
+@media only screen and (min-width: 560px) {
+    .cards {
+        display: grid; 
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(4, 25%);
+    }
+}
