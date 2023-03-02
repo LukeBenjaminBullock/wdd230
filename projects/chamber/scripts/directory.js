@@ -42,6 +42,7 @@ function displayDataInGrid(data) {
 
         const businessImage = document.createElement("img");
         businessImage.src = business.imageFile;
+        businessImage.alt = business.businessName;
         businessCard.appendChild(businessImage);
 
         const businessName = document.createElement("p");

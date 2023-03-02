@@ -555,6 +555,19 @@ form {
     margin: 0px;
 }
 
+.list li a {
+    text-decoration: none;
+    color: #e61a1a;
+}
+
+.list li a:visited{
+    color: rgb(255, 0, 217);
+}
+
+.list li a:hover {
+    color: rgb(26, 255, 0);
+}
+
 /* ! grid box */
 
 .grid div {
@@ -566,6 +579,20 @@ form {
 .grid div img {
     width: 50%; 
     height: auto;
+}
+
+
+.grid div a {
+    text-decoration: none;
+    color: #e61a1a;
+}
+
+.grid div a:visited{
+    color: rgb(255, 0, 217);
+}
+
+.grid div a:hover {
+    color: rgb(26, 255, 0);
 }
 
 
