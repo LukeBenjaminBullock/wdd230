@@ -54,7 +54,7 @@ function displayDataInGrid(data) {
 
         const businessWebsight = document.createElement("a");
         businessWebsight.href = business.websight;
-        businessWebsight.innerText = business.websight;
+        businessWebsight.innerText = "Visit Site";
         businessCard.appendChild(businessWebsight);
 
         display.appendChild(businessCard);
@@ -85,6 +85,7 @@ function displayDataInList(data) {
 
         const businessWebsight = document.createElement("a");
         businessWebsight.href = business.websight;
+        businessWebsight.innerText = business.websight;
         businessListItem.appendChild(businessWebsight);
 
         display.appendChild(businessListItem);

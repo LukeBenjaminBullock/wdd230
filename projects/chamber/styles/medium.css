@@ -118,4 +118,26 @@
         margin: 0px; 
     }
 
+    /* ! Directory page */
+
+    #directory-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid div {
+        padding: 8%; 
+        margin: 4%;
+    }
+
+    .grid div img {
+        width: 70%; 
+        height: auto;
+    }
+
 }
