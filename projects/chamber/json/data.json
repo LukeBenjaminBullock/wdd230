@@ -1,0 +1,78 @@
+
+{
+"businesses": [
+
+    {
+        "name" : "VRCORE",
+        "address" : "1018 3 Ave S, Lethbridge, AB T1J 0J4",
+        "phoneNumber" : "+1 587 288 1760",
+        "websight" : "http://www.vrcore.ca/", 
+        "imageFile" : "images/businesses/vcore.jpg",
+        "membershipLevel" : 1
+    },
+    {
+        "name" : "The Movie Mill",
+        "address" : "1710 Mayor Magrath Dr S, Lethbridge, AB T1K 2R5",
+        "phoneNumber" : "+1 403 381 1251",
+        "websight" : "http://moviemill.com/", 
+        "imageFile" : "images/businesses/mill.jpg",
+        "membershipLevel" : 1 
+    },
+    {
+        "name" : "Two Guys & A Pizza Place Ltd",
+        "address" : "316 11 St S, Lethbridge, AB T1J 2N8",
+        "phoneNumber" : "+1 403 331 2222",
+        "websight" : "http://www.twoguyspizza.ca/", 
+        "imageFile" : "images/businesses/pizza.jpg",
+        "membershipLevel" : 1 
+    },
+    {
+        "name" : "Nikka Yuko Japanese Garden",
+        "address" : "Corner of 9th Ave S &, Mayor Magrath Dr S, Lethbridge, AB T1K 0C6",
+        "phoneNumber" : "+1 403 328 3511",
+        "websight" : "http://www.nikkayuko.com/", 
+        "imageFile" : "images/businesses/Japanese-garden.jpg",
+        "membershipLevel" : 1 
+    },
+    {
+        "name" : "Fairfield Inn & Suites by Marriott Lethbridge",
+        "address" : "4081 2 Ave S, Lethbridge, AB T1J 1Z2",
+        "phoneNumber" : "+1 587 425 0388",
+        "websight" : "https://www.marriott.com/en-us/hotels/yqlfi-fairfield-inn-and-suites-lethbridge/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0", 
+        "imageFile" : "images/businesses/Hotel.jpg",
+        "membershipLevel" : 1 
+    },
+    {
+        "name" : "Visions Electronics",
+        "address" : "3040 Fairway St S, Lethbridge, AB T1K 6T9",
+        "phoneNumber" : "+1 403 320 2333",
+        "websight" : "https://www.visions.ca/", 
+        "imageFile" : "images/businesses/Electronics.jpg",
+        "membershipLevel" : 1
+    },
+    {
+        "name" : "Pure Casino Lethbridge",
+        "address" : "3756 2 Ave S, Lethbridge, AB T1J 4Y9",
+        "phoneNumber" : "+1 403 381 9467",
+        "websight" : "http://purecasinolethbridge.com/", 
+        "imageFile" : "images/businesses/Casino.jpg",
+        "membershipLevel" : 1
+    },
+    {
+        "name" : "Owl Acoustic Lounge",
+        "address" : "606 3 Ave S, Lethbridge, AB T1J 0H4",
+        "phoneNumber" : "+1 403 942 1770",
+        "websight" : "http://www.owlacousticlounge.ca/", 
+        "imageFile" : "images/businesses/Resteraunt",
+        "membershipLevel" : 1 
+    },
+    {
+        "name" : "Walmart Supercentre",
+        "address" : "3700 Mayor Magrath Dr S, Lethbridge, AB T1K 7T6",
+        "phoneNumber" : "+1 403 328 6277",
+        "websight" : "https://www.walmart.ca/en/stores-near-me/lethbridge-south-supercentre-3048?utm_source=local&utm_medium=listings&utm_campaign=sc&cmpid=gmb", 
+        "imageFile" : "images/businesses/Walmart.jpg",
+        "membershipLevel" : 1 
+    }
+]
+}
