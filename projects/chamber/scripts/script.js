@@ -50,5 +50,4 @@ if (day !== 3) {
     displayAd.style.display = "none";
 }
 
-
 console.log("1");

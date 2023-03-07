@@ -49,9 +49,17 @@ function displayDataInGrid(data) {
         businessName.innerText = business.name;
         businessCard.appendChild(businessName);
 
+        const membershipLevel = document.createElement("p"); 
+        membershipLevel.innerText = "Membership Level: " + business.membershipLevel;
+        businessCard.appendChild(membershipLevel);
+
         const businessAdress = document.createElement("h2");
         businessAdress.innerText = business.address;
         businessCard.appendChild(businessAdress);
+
+        const businessPhoneNumber = document.createElement("h2");
+        businessPhoneNumber.innerText = business.phoneNumber;
+        businessCard.appendChild(businessPhoneNumber);
 
         const businessWebsight = document.createElement("a");
         businessWebsight.href = business.websight;

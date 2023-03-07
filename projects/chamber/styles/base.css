@@ -196,7 +196,35 @@ main div p {
 }
 
 #weather-box {
-    text-align: left;
+    text-align: center;
+}
+
+#top-weather {
+    display: flex;
+    justify-content: center;
+    margin: 0px; 
+    padding: 0px;
+}
+
+#wind-temp {
+    margin: 40px; 
+    margin-left: 10px; 
+    white-space: nowrap;
+}
+
+#top-weather img {
+    height: 100px; 
+    width: auto; 
+    padding-left: 30px; 
+}
+
+#bottom-weather {
+    display: flex; 
+    flex-direction: column;
+}
+
+#wind-speed {
+    margin: 10px; 
 }
 
 #news-Release {
@@ -594,6 +622,12 @@ form {
 .grid div a:hover {
     color: rgb(26, 255, 0);
 }
+
+.grid div p:nth-child(3) {
+    color:#fffb00;
+    font-size: 14px;
+}
+
 
 
 

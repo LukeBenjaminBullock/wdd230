@@ -19,7 +19,9 @@
 
     <header>
         <div class="top-box">
-            <img class="logo" src="images/fulllogo.webp" alt="Logo image">
+            <a href="index.html">
+                <img class="logo" src="images/fulllogo.webp" alt="Logo image">
+            </a>
             <div class="header-text">
                 <p>LethoCom </p>
                 <h2>Chamber of Commerce </h2>
@@ -35,6 +37,7 @@
             <nav>
                 <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul class="primaryNav">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
@@ -88,12 +91,16 @@
 
         <div id="weather-box">
             <p>Weather</p>
-            <!-- ! weather img -->
-            <span id="wind-temp"></span>
+            <div id="top-weather">
+                <img src="" alt="" id="weather-icon" />
+                <span id="wind-temp"></span>
+            </div>
             <span id="weather-type"></span>
             <hr>
-            <span id="wind-speed"></span>
-            <span id="wind-chill"></span>
+            <div id="bottom-weather">
+                <span id="wind-speed"></span>
+                <span id="wind-chill"></span>
+            </div>
         </div>
 
         <div id="news-Release">
