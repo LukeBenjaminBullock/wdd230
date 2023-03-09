@@ -140,4 +140,35 @@
         height: auto;
     }
 
+    /* ! contact page */
+
+    #contact-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #top-half {
+        display: flex; 
+        flex-direction: row;
+    }
+
+    #top-half form {
+        width: 50%;
+    }
+
+    #top-half hr {
+        width: 1px;
+    }
+
+    #comments {
+        width: 100%; 
+    }
+
+    #commerce-contact {
+        width: 40%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }

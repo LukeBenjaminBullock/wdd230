@@ -204,4 +204,9 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+    /* ! contact page */
+    #commerce-contact {
+        width: 60%;
+    }
+
 }

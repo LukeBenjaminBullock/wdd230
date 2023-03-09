@@ -21,12 +21,12 @@ header, footer {
 }
 
 p {
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Cinzel', serif;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .top-box {
@@ -628,6 +628,46 @@ form {
     font-size: 14px;
 }
 
+/* ! contact page */
+#top-half {
+    display: grid; 
+    grid-template-rows: auto, auto, auto;
+}
+
+#top-half form {
+    grid-row: 3/4;
+    padding-left: 0; 
+    margin-left: 0;
+    
+}
+
+#top-half form div {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-half hr {
+    grid-row: 2/3;
+    width: 100%; 
+}
+
+#commerce-contact {
+    grid-row: 1/2; 
+}
+
+#bottom-half div {
+    display: flex; 
+    flex-direction: column;
+}
+
+#bottom-half div h2 {
+    margin: 3px; 
+}
+
+#comments {
+    height: 150px;
+}
 
 
 

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the main page of my site. It is meant to introduce people to the local
+    community of lethbridge. Either as tourists, prospecting housekeepers, or business owners.">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Homepage</title>
+</head>
+<body>
+
+    <header>
+        <div class="top-box">
+            <a href="index.html">
+                <img class="logo" src="images/fulllogo.webp" alt="Logo image">
+            </a>
+            <div class="header-text">
+                <p>LethoCom </p>
+                <h2>Chamber of Commerce </h2>
+            </div>
+            <div class="icons"> 
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img class="facebook" src="images/facebook.png" alt="Facebook image">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img class="linkedin" src="images/linkedin.png" alt="Linkedin image">    
+                </a> 
+            </div>
+            <nav>
+                <button class="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul class="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>    
+                </ul>
+            </nav>
+        </div>
+        <div class="header-date"><span class="date-head"></span></div> <!-- ! Date -->
+        <p class="meeting-ad">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </header>
+
+    <main id="contact-main">
+
+        <div id="top-half">
+            <form>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Joe Smith" required> 
+                </div>
+                <div> 
+                    <label for="phone">Phone Number: </label>
+                    <input type="text" id="phone" name="phone" placeholder="1234567890">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name="email" placeholder="JoeSmith@gmail.com">
+                </div>
+
+                <div>
+                    <label for="preference">Contact Preference: </label>
+                    <select name="preference" required>
+                        <option value>Choose...</option>
+                        <option value>Phone </option>
+                        <option value>Email </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comments">Comments/Questions </label>
+                    <textarea id="comments" maxlength="9999" name="comments" placeholder="Type comments here."></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" id="submit" name="submit" value="Submit Form">
+                </div>
+            </form>
+
+            <hr> 
+
+            <div id="commerce-contact">
+                <p>Contact us</p>
+                <h2>Lethbridge Chamber of Commerce</h2>
+                <h2>489 35th street S</h2>
+                <h2>Lethbridge, Alberta, 89203</h2>
+                <h2 id="phone-heading">Phone: (403) 784-9823</h2>
+
+                <p>Hours</p>
+                <h2>Monday - Friday: 8:00 a.m. to 3:00 p.m. </h2>
+                <h2>Saturday: By appointment only</h2>
+                
+            </div>
+        </div>
+
+        <div id="bottom-half">
+            <p>Points of Contact</p>
+            <hr>
+
+            <div>
+                <h2>George Mckelly </h2> 
+                <h2>President & CEO</h2>
+                <h2>(403) 758-2938</h2>
+            </div>
+
+            <div>
+                <h2>Thomas Bilwire</h2>
+                <h2>Vice president</h2>
+                <h2>(403) 837-4715</h2>
+            </div>
+
+            <div>
+                <h2>Ansel Hammington</h2>
+                <h2>Membership Director</h2>
+                <h2>(403) 928-4768</h2>
+            </div>
+
+            <div>
+                <h2>Justin Leguir</h2>
+                <h2>Bookkeeper/Grant Project Manager</h2>
+                <h2>(403) 536-9479</h2>
+            </div>
+
+            <div>
+                <h2>Sally Goodman</h2>
+                <h2>Operations Assistant</h2>
+                <h2>(403) 393-9774</h2>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <img id="footer-logo" src="images/fulllogo.webp" alt="Logo image">
+        <div id="Content-1">
+            <p> LethoCom chamber of Commerce </p>
+            <h2> 10 Rue De Le Paix </h2> 
+            <h2> LethoCom, mali 999 </h2>
+        </div>
+
+        <div id="Content-2">
+            <h2> info@timbuktucc.org </h2>
+            <h2> +(223) 2070-2300 </h2>
+            <h2 id = "map-link">
+                <a href="https://www.google.com/maps/place/Lethbridge,+AB,+Canada/@49.6947989,-112.8054169,13z/data=!3m1!4b1!4m5!3m4!1s0x53766e2c2a9e9ecb:0x40d6f14cc25f71b1!8m2!3d49.7009!4d-112.833" target="_blank">
+                  &#x1F4CD; Location Map
+                </a>
+              </h2>
+        </div>
+        <hr>
+        <div id="Content-3">
+            <h2>&copy; <span id="current-year"></span></h2> <!-- Year -->
+            <p> | </p>
+            <p>Luke Benjamin Bullock</p>
+            <p> | </p>
+            <h2>WDD 230 Project</h2>
+            <p> | </p>
+            <h2>Last modification: <span id="dynamic-time-stamp"></span></h2>    
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
