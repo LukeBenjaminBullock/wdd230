@@ -8,7 +8,7 @@
         "phoneNumber" : "+1 587 288 1760",
         "websight" : "http://www.vrcore.ca/", 
         "imageFile" : "images/businesses/vcore.jpg",
-        "membershipLevel" : 1
+        "membershipLevel" : "Copper"
     },
     {
         "name" : "The Movie Mill",
@@ -16,7 +16,7 @@
         "phoneNumber" : "+1 403 381 1251",
         "websight" : "http://moviemill.com/", 
         "imageFile" : "images/businesses/mill.jpg",
-        "membershipLevel" : 1 
+        "membershipLevel" : "Silver"
     },
     {
         "name" : "Two Guys & A Pizza Place Ltd",
@@ -24,7 +24,7 @@
         "phoneNumber" : "+1 403 331 2222",
         "websight" : "http://www.twoguyspizza.ca/", 
         "imageFile" : "images/businesses/pizza.jpg",
-        "membershipLevel" : 1 
+        "membershipLevel" : "Gold"
     },
     {
         "name" : "Nikka Yuko Japanese Garden",
@@ -32,15 +32,15 @@
         "phoneNumber" : "+1 403 328 3511",
         "websight" : "http://www.nikkayuko.com/", 
         "imageFile" : "images/businesses/Japanese-garden.jpg",
-        "membershipLevel" : 1 
+        "membershipLevel" : "Copper"
     },
     {
         "name" : "Fairfield Inn & Suites by Marriott Lethbridge",
         "address" : "4081 2 Ave S, Lethbridge, AB T1J 1Z2",
         "phoneNumber" : "+1 587 425 0388",
         "websight" : "https://www.marriott.com/en-us/hotels/yqlfi-fairfield-inn-and-suites-lethbridge/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0", 
-        "imageFile" : "images/businesses/Hotel.jpg",
-        "membershipLevel" : 1 
+        "imageFile" : "images/businesses/hotel.jpg",
+        "membershipLevel" : "Gold" 
     },
     {
         "name" : "Visions Electronics",
@@ -48,7 +48,7 @@
         "phoneNumber" : "+1 403 320 2333",
         "websight" : "https://www.visions.ca/", 
         "imageFile" : "images/businesses/Electronics.jpg",
-        "membershipLevel" : 1
+        "membershipLevel" : "Copper"
     },
     {
         "name" : "Pure Casino Lethbridge",
@@ -56,7 +56,7 @@
         "phoneNumber" : "+1 403 381 9467",
         "websight" : "http://purecasinolethbridge.com/", 
         "imageFile" : "images/businesses/Casino.jpg",
-        "membershipLevel" : 1
+        "membershipLevel" : "Silver"
     },
     {
         "name" : "Owl Acoustic Lounge",
@@ -64,7 +64,7 @@
         "phoneNumber" : "+1 403 942 1770",
         "websight" : "http://www.owlacousticlounge.ca/", 
         "imageFile" : "images/businesses/Resteraunt.jpg",
-        "membershipLevel" : 1 
+        "membershipLevel" : "Silver"
     },
     {
         "name" : "Walmart Supercentre",
@@ -72,7 +72,23 @@
         "phoneNumber" : "+1 403 328 6277",
         "websight" : "https://www.walmart.ca/en/stores-near-me/lethbridge-south-supercentre-3048?utm_source=local&utm_medium=listings&utm_campaign=sc&cmpid=gmb", 
         "imageFile" : "images/businesses/Walmart.jpg",
-        "membershipLevel" : 1 
+        "membershipLevel" : "Silver"
+    },
+    {
+        "name" : "Lethbridge Library",
+        "address" : "810 5 Ave S, Lethbridge, AB T1J 4C4",
+        "phoneNumber" : "+1 403 380 7310",
+        "websight" : "http://www.lethlib.ca/", 
+        "imageFile" : "images/businesses/Library.jpg",
+        "membershipLevel" : "Gold"
+    },
+    {
+        "name" : "Casa",
+        "address" : "230 8 St S, Lethbridge, AB T1J 5H2",
+        "phoneNumber" : "+1 403 327 2272",
+        "websight" : "http://casalethbridge.ca/", 
+        "imageFile" : "images/businesses/casa.jpg",
+        "membershipLevel" : "Copper"
     }
 ]
 }
