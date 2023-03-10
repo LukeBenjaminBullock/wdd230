@@ -8,7 +8,8 @@
         "phoneNumber" : "+1 587 288 1760",
         "websight" : "http://www.vrcore.ca/", 
         "imageFile" : "images/businesses/vcore.jpg",
-        "membershipLevel" : "Copper"
+        "catchPhrase" : "An experince out of this world",
+        "membershipLevel" : "Gold"
     },
     {
         "name" : "The Movie Mill",
@@ -16,6 +17,7 @@
         "phoneNumber" : "+1 403 381 1251",
         "websight" : "http://moviemill.com/", 
         "imageFile" : "images/businesses/mill.jpg",
+        "catchPhrase" : "Fun for the whole family",
         "membershipLevel" : "Silver"
     },
     {
@@ -24,6 +26,7 @@
         "phoneNumber" : "+1 403 331 2222",
         "websight" : "http://www.twoguyspizza.ca/", 
         "imageFile" : "images/businesses/pizza.jpg",
+        "catchPhrase" : "You can never have just one slice",
         "membershipLevel" : "Gold"
     },
     {
@@ -32,6 +35,7 @@
         "phoneNumber" : "+1 403 328 3511",
         "websight" : "http://www.nikkayuko.com/", 
         "imageFile" : "images/businesses/Japanese-garden.jpg",
+        "catchPhrase" : "The most beautiful place on earth",
         "membershipLevel" : "Copper"
     },
     {
@@ -40,7 +44,8 @@
         "phoneNumber" : "+1 587 425 0388",
         "websight" : "https://www.marriott.com/en-us/hotels/yqlfi-fairfield-inn-and-suites-lethbridge/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0", 
         "imageFile" : "images/businesses/hotel.jpg",
-        "membershipLevel" : "Gold" 
+        "catchPhrase" : "Open to newcomers and travelers alike",
+        "membershipLevel" : "Copper" 
     },
     {
         "name" : "Visions Electronics",
@@ -48,6 +53,7 @@
         "phoneNumber" : "+1 403 320 2333",
         "websight" : "https://www.visions.ca/", 
         "imageFile" : "images/businesses/Electronics.jpg",
+        "catchPhrase" : "We're there for you",
         "membershipLevel" : "Copper"
     },
     {
@@ -56,6 +62,7 @@
         "phoneNumber" : "+1 403 381 9467",
         "websight" : "http://purecasinolethbridge.com/", 
         "imageFile" : "images/businesses/Casino.jpg",
+        "catchPhrase" : "Please play responsibly",
         "membershipLevel" : "Silver"
     },
     {
@@ -64,6 +71,7 @@
         "phoneNumber" : "+1 403 942 1770",
         "websight" : "http://www.owlacousticlounge.ca/", 
         "imageFile" : "images/businesses/Resteraunt.jpg",
+        "catchPhrase" : "Dinner and games",
         "membershipLevel" : "Silver"
     },
     {
@@ -72,7 +80,8 @@
         "phoneNumber" : "+1 403 328 6277",
         "websight" : "https://www.walmart.ca/en/stores-near-me/lethbridge-south-supercentre-3048?utm_source=local&utm_medium=listings&utm_campaign=sc&cmpid=gmb", 
         "imageFile" : "images/businesses/Walmart.jpg",
-        "membershipLevel" : "Silver"
+        "catchPhrase" : "Its popular for a reason",
+        "membershipLevel" : "Copper"
     },
     {
         "name" : "Lethbridge Library",
@@ -80,6 +89,7 @@
         "phoneNumber" : "+1 403 380 7310",
         "websight" : "http://www.lethlib.ca/", 
         "imageFile" : "images/businesses/Library.jpg",
+        "catchPhrase" : "More than just a library",
         "membershipLevel" : "Gold"
     },
     {
@@ -88,7 +98,8 @@
         "phoneNumber" : "+1 403 327 2272",
         "websight" : "http://casalethbridge.ca/", 
         "imageFile" : "images/businesses/casa.jpg",
-        "membershipLevel" : "Copper"
+        "catchPhrase" : "Home of the arts",
+        "membershipLevel" : "Silver"
     }
 ]
 }
