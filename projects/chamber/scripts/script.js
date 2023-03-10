@@ -51,3 +51,14 @@ if (day !== 3) {
 }
 
 console.log("1");
+
+
+// ! Added functionality for the 404 page. 
+
+function checkStatus() {
+    if (document.title === "404 Error: Page Not Found") {
+        window.location.href = "/404.html";
+    }
+}
+
+checkStatus();

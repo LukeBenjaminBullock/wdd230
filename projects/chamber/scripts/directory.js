@@ -51,6 +51,14 @@ function displayDataInGrid(data) {
 
         const membershipLevel = document.createElement("p"); 
         membershipLevel.innerText = "Membership Level: " + business.membershipLevel;
+        if (business.membershipLevel === "Silver")
+        {
+            membershipLevel.style = "color: white;"
+        }
+        else if (business.membershipLevel == "Copper")
+        {
+            membershipLevel.style = "color: rgb(217, 177, 122);"
+        }
         businessCard.appendChild(membershipLevel);
 
         const businessAdress = document.createElement("h2");
