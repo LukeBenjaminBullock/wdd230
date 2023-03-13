@@ -8,7 +8,7 @@
 
     nav ul.primaryNav{
         display: flex;  
-        border-left: 1px solid rgba(0,0,0,0.3)
+        border-left: 1px solid rgba(0,0,0,0.3);
     }
 
     nav ul li a {
@@ -19,6 +19,14 @@
     #icons {
         order: 2;
         padding: 30px;
+    }
+
+    .top-box nav {
+        height: 35px; 
+    }
+
+    .top-box .icons.closed {
+        margin: 20px; 
     }
 
     main {

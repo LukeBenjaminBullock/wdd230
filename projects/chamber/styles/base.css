@@ -16,10 +16,6 @@ header, footer {
     flex-direction: column;
 }
 
-.header-text {
-    padding-right: 10%;
-}
-
 p {
     font-size: 26px;
     font-family: 'Cinzel', serif;
@@ -30,9 +26,34 @@ h2 {
 }
 
 .top-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+.top-box p {
+    font-size: 16px;
+}
+
+.top-box h2 {
+    font-size: 10px; 
+}
+
+.top-box .icons.closed {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    margin: 20px; 
+}
+
+.header-text {
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.top-box .icons.open {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    margin: 20px; 
 }
 
 header p {
@@ -51,7 +72,7 @@ header p {
 .hamburgerBtn.closed {
     position: absolute;
     top: 5px;
-    right: 20px; 
+    right: 18%; 
     background-color: black;
 }
 
@@ -631,7 +652,7 @@ form {
 /* ! contact page */
 #top-half {
     display: grid; 
-    grid-template-rows: auto, auto, auto;
+    grid-template-rows: auto auto auto;
 }
 
 #top-half form {
