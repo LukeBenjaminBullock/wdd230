@@ -50,9 +50,6 @@ if (day !== 3) {
     displayAd.style.display = "none";
 }
 
-console.log("1");
-
-
 // ! Added functionality for the 404 page. 
 
 function checkStatus() {

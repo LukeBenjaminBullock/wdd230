@@ -33,7 +33,6 @@ var lastVisit = localStorage.getItem('lastVisit');
 var currentTime = Date.now();
 
 localStorage.clear()
-console.log(localStorage)
 
     if (!lastVisit) {
         localStorage.setItem('lastVisit', currentTime);
