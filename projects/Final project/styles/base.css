@@ -1,0 +1,82 @@
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+}
+
+.centered {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+#planning-document-body header {
+    background-color:#bbfffc;
+    color: #563306;
+    text-align: center;
+    padding: 20px; 
+    margin: 40px; 
+    box-shadow: 0 0 30px #563306;
+}
+
+#planning-document-body main hr {
+    margin: 10%;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+    color: white; 
+}
+
+.primary {
+	background-color: #563306;
+	color: white;
+}
+
+.secondary {
+	background-color: #87f006;
+}
+
+.accent1 {
+	background-color: #bbfffc;
+}
+
+.accent2 {
+	background-color: #941818;
+	color: white;
+}
+
+.colored {
+    background-color: #563306;
+    color:#bbfffc;
+    padding: 5%;
+}
+
+.sketch-title {
+    font-size: 19px;
+    padding: 40px; 
+    text-align: center;
+}
+
+#small-sketch {
+    width: 30%;
+}
+
+#large-sketch {
+    width: 90%; 
+}
+
+#logo-title {
+    margin-bottom: 20px; 
+}
