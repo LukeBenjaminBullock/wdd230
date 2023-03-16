@@ -34,8 +34,8 @@
 
     .hamburgerBtn.closed {
         position: absolute;
-        top: 5px;
-        right: 20px; 
+        top: 0px;
+        right: 15px; 
         background-color: black;
     }
 
@@ -184,6 +184,8 @@
 
     #top-half hr {
         width: 1px;
+        box-sizing: border-box;
+        height: auto;
     }
 
     #comments {
