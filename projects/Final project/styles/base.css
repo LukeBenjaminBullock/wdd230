@@ -6,6 +6,8 @@ h1 {
     font-family: 'Tangerine', cursive;
 }
 
+/* ! Planning document */
+
 .centered {
     text-align: center;
     display: block;
@@ -80,3 +82,58 @@ h1 {
 #logo-title {
     margin-bottom: 20px; 
 }
+
+/* ! Index page */
+
+ul {
+    padding: 0px;
+}
+
+header {
+    background-color: #563306;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    margin: 30px;
+}
+
+.mediumline {
+    display: none;
+}
+
+.primaryNav {
+    list-style-type: none; 
+}
+
+.baseline {
+    width: 50%;
+    height: 2px;
+    background-color: #87f006;
+    margin: 30px auto;
+}
+
+.primaryNav li a{
+    border: 3px solid #87f00687; /* Add border around each item */
+    padding: 10px; /* Add padding inside the border */
+    text-decoration: none;
+    font-size: 25px;
+    color: #bbfffc;
+}
+
+.primaryNav li a:hover{
+    background-color: #941818;
+    color: black;
+}
+
+.lowerNav {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.icons a img {
+    width: 50px; 
+    padding: 30px 8px; 
+}
+
