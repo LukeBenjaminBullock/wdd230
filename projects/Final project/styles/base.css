@@ -104,7 +104,10 @@ ul {
 header {
     background-color: #a4620b;
     text-align: center;
-    margin-bottom: 100px;
+}
+
+header a {
+    color:#00000000;
 }
 
 .logo {
@@ -231,12 +234,32 @@ h1 {
 #weather-section div {
     display: flex; 
     flex-direction: row;
+    margin: 5px;
+    margin-top: 3%; 
 }
 
 #weather-section div  p {
     padding: 0px 20px;
     margin: 0px;
 }
+
+#weather-box {
+    border: none;
+    background-color: #00000000;
+}
+
+#weather-section div:nth-child(4) {
+    display: none; 
+}
+
+#weather-section div:nth-child(5) {
+    display: none; 
+}
+
+#weather-section div:nth-child(6) {
+    display: none; 
+}
+
 
 #drinks-button {
     background-color: #002501;
@@ -253,11 +276,15 @@ h1 {
 }
 
 footer {
-    margin-top: 100px; 
     background-color: #a4620b;
     text-align: center;
     padding: 30px;
     color:#bbffc6;
+}
+
+#number-div {
+    padding: 15px;
+    margin: 12px;
 }
 
 footer hr {

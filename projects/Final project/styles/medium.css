@@ -1,0 +1,170 @@
+@media only screen and (min-width: 600px) {
+    /* ! Index page */
+
+    header {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .logo {
+        margin: 30px 0px; 
+        margin-left: 5%; 
+    }
+
+    .baseline {
+        display: none; 
+    }
+
+    .mediumline {
+        display: inline;
+        height: 130px;
+        width: 2px; 
+        background-color: #87f006;
+        margin: 2%; 
+    }
+
+    .primaryNav li {
+        margin: 20px 0px;
+    }
+
+    .primaryNav li a {
+        font-size: 18px;
+    }
+
+    .icons {
+        display: grid; 
+        grid-template-columns: 60px 60px;
+        grid-template-rows: 60px 60px;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    .facebook {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .instagram {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .linkedin {
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+
+    .logo {
+        width: 150px
+    }
+
+    #coastal-div {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    #coastal-div img {
+        width: 40%; 
+        margin: 20px;
+    }
+
+    #weather-box {
+        padding: 0px 30px; 
+        margin: 0px 15px; 
+    }
+
+    #weather-div {
+        display: flex; 
+        padding: 2%;
+        justify-content: space-around;
+    }
+
+    #top-weather {
+        width: 100%; 
+        margin: 0px; 
+        padding-right: 10px; 
+    }
+
+    #weather-section {
+        min-width: 280px;
+    }
+
+    #weather-section div:nth-child(4) {
+        display: flex; 
+    }
+    
+    #weather-section div:nth-child(5) {
+        display: flex; 
+    }
+
+    #weather-section div p {
+        padding: 10px; 
+    }
+
+    #weather-section div {
+        padding: 0px; 
+    }
+
+    #fruit-div {
+        display: grid; 
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #fruit-img {
+        grid-column: 3/7;
+        grid-row: 1/5;
+        background-color: rgb(0, 0, 0);
+        padding: 30px; 
+        border: 1px solid #bbfffc;
+        
+    }
+
+    #fruit-paragraph {
+        grid-column: 1/4;
+        grid-row: 3/7;
+        background-color: #000000cd;
+        padding: 10%;
+        border: 1px solid #bbfffc;
+    }
+
+    #drinks-button {
+        grid-column: 4/7;
+        grid-row: 5/6;
+        height: 50%;
+        margin-top: 20%;  
+        margin-left: 10%;  
+    }
+
+    #number-div {
+        display: flex; 
+        justify-content: center;
+    }
+
+    #number-div p {
+        margin: 0px 20px; 
+    }
+
+    footer {
+        display: flex; 
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    footer h1 {
+        margin-left: 5%; 
+    }
+
+    footer div {
+        margin-right: 5%; 
+    }
+
+    footer hr {
+        height: 150px; 
+        width: 2px; 
+    }
+}
