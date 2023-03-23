@@ -28,7 +28,6 @@
             <div class="lowerNav">
                 <li><a href="about-us.html">About us</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
-                <li><a href="resource.html">Resorce</a></li>
             </div>
             
         </ul>
@@ -56,11 +55,17 @@
                 grown near the shine of these beaches, and the smell of salt in the air. 
             </p>
         </div>
-        <div>
-            <img src="images/Icons/logo.png" alt="empty" id="weather-icon">
-            <span id="wind-temp"></span>
-            <span id="weather-type"></span>
-            <span id="humidity"></span>
+        <div id="weather-div">
+            <h1>Weather</h1>
+            <div id="top-weather">
+                <img src="images/Icons/logo.png" alt="empty" id="weather-icon">
+                <span id="wind-temp"></span>
+            </div>
+            <div id="middle-weather"> 
+                <span id="weather-type"></span>
+                <hr>
+                <span id="humidity"></span>
+            </div>
             <section id="weather-section"> 
                 <!-- This is where we will put the days and temperature using javascript -->
             </section>
@@ -89,6 +94,8 @@
         <p>Adress: 1645 S Vermont Ave</p>
         <p>Los Angeles, CA 90007, United States</p>
         <p>Phone number: 323-759-8873</p>
+
+        <a href="resource.html">References</a>
     </footer>
 
     <script src="scripts/index.js"></script>

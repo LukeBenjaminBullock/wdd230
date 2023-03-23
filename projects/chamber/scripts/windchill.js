@@ -49,7 +49,3 @@ function displayResults(weatherData) {
     weatherType.innerHTML = desc;
 }
 apiFetch();
-
-// document.querySelector("#wind-temp").innerHTML = temp + " &#176;F";
-// document.querySelector("#wind-speed").innerHTML = "Windspeed: " + windSpeed + "mph";
-// document.querySelector("#wind-chill").innerHTML = "Windchill: " + windChill;

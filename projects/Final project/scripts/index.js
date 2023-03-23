@@ -47,32 +47,32 @@ function displayResults(weatherData) {
     humidityLevel.innerHTML = "Humidity: " + humidity;
 
     if (weatherData.list && weatherData.list.length > 0) {
-        const forecasts = weatherData.list.slice(0, 5);
-        forecasts.forEach(forecast => {
-        const date = new Date(forecast.dt_txt);
-        const dayOfWeek = date.toLocaleString('en-US', { weekday: 'short' });
-        const forecastTemp = forecast.main.temp.toFixed(0);
+        const forecastsByDay = {};
 
-        const div = document.createElement('div');
-        const dayNumber = document.createElement('p');
-        const tempElem = document.createElement('p');
-        const descElem = document.createElement('p');
+        weatherData.list.forEach(forecast => {
+            const date = new Date(forecast.dt_txt);
+            const dayOfWeek = date.toLocaleString('en-US', { weekday: 'short' });
+            const forecastTemp = forecast.main.temp.toFixed(0);
+        
+            if (!forecastsByDay[dayOfWeek]) {
+                forecastsByDay[dayOfWeek] = { temp: forecastTemp, desc: forecast.weather[0].description };
+            } else if (date.getHours() === 12) {
+                forecastsByDay[dayOfWeek] = { temp: forecastTemp, desc: forecast.weather[0].description };
+            }
+        });
 
-        dayNumber.textContent = dayOfWeek;
-        tempElem.textContent = `${forecastTemp} °F`;
-
-        if (forecast.weather && forecast.weather.length > 0) {
-            const desc = forecast.weather[0].description;
-            descElem.textContent = desc;
-        } else {
-            descElem.textContent = 'N/A';
-        }
-
-        div.appendChild(dayNumber);
-        div.appendChild(tempElem);
-        div.appendChild(descElem);
-
-        section.appendChild(div);
+        Object.entries(forecastsByDay).forEach(([dayOfWeek, forecast]) => {
+            const div = document.createElement('div');
+            const dayElem = document.createElement('p');
+            const tempElem = document.createElement('p');
+            const descElem = document.createElement('p');
+            dayElem.textContent = dayOfWeek;
+            tempElem.textContent = `${forecast.temp} °F`;
+            descElem.textContent = forecast.desc;
+            div.appendChild(dayElem);
+            div.appendChild(tempElem);
+            div.appendChild(descElem);
+            section.appendChild(div);
         });
     }
 } 
