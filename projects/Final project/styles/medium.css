@@ -149,7 +149,7 @@
         margin: 0px 20px; 
     }
 
-    footer {
+    #footer-box {
         display: flex; 
         align-items: center;
         justify-content: space-evenly;
@@ -166,6 +166,10 @@
     footer hr {
         height: 150px; 
         width: 2px; 
+    }
+
+    #time-stamp-div {
+        margin-top: 0px; 
     }
 
     /* ! Fresh */
