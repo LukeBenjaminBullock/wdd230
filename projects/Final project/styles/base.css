@@ -215,6 +215,7 @@ h1 {
 
 #top-weather img {
     margin-right: 30px;
+    max-width: 50px;
 }
 
 #middle-weather {
@@ -285,6 +286,11 @@ footer {
 #number-div {
     padding: 15px;
     margin: 12px;
+    display: flex;
+}
+
+#drinks-number {
+    margin-left: 5px; 
 }
 
 footer hr {
@@ -300,4 +306,151 @@ footer a {
 
 footer a:hover {
     color: #000000;
+}
+
+/* ! Fresh */
+
+#fresh-main div img {
+    box-shadow: 0px 0px 40px black;
+    max-width: 600px;
+}
+
+#fresh-main div article h3,
+#fresh-main div article p {
+    display: none;
+}
+
+#fresh-main div article.show h3,
+#fresh-main div article.show p {
+    display: block;
+}
+
+#fresh-main div article.show h3 {
+    background-color: white;
+    margin: 0px; 
+    padding: 10px; 
+    color: black;
+}
+
+#fresh-main div article.show p {
+    background-color: white;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 20px; 
+}
+
+#fresh-main div article.show p:nth-child(odd) {
+    background-color: rgb(219, 219, 219);
+    
+}
+
+h2 {
+    margin: 5px; 
+}
+
+div.fruit-card {
+    padding: 1%; 
+}
+
+article div {
+    max-height: 50px; 
+}
+
+article.show div {
+    min-width: 130px; 
+    max-height: 1000px;
+}
+
+.first-group div, .second-group div, .third-group div {
+    border: 0px;
+    background-color: #00000000;
+    padding: 0px; 
+}
+
+.first-group, .second-group, .third-group {
+    border: 0px;
+    margin: 0px; 
+    padding: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 40px; ;
+}
+
+.first-group {
+    display: grid; 
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto auto auto;
+    text-align: start;
+    grid-gap: 10px; 
+    padding: 3%; 
+}
+
+.first-group input {
+    max-width: 300px;
+}
+
+.third-group div {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit-button {
+    background-color: #002501;
+    color: #bbfffc;
+    padding: 5px 10px;
+    border-color: #bbffc6;
+}
+
+#submit-button:hover {
+    background-color: #ff5353;
+    color: #000000;
+    padding: 5px 10px;
+    border-color: #bbffc6;
+}
+
+#output {
+    width: 94%;
+    padding: 3%;  
+}
+
+#output div:hover {
+    background-color: #48003b;
+    padding: 5%;
+}
+
+#output div{
+    color: #bbffc6;  
+    margin-bottom: 50px; 
+}
+
+#output div:nth-child(3) {
+    background-color: white;
+    color: black; 
+    padding: 5%;
+}
+
+#output div:nth-child(3) p {
+    margin: 0px;
+    padding: 10px;
+}
+
+#output div:nth-child(3) p:nth-child(odd) {
+    background-color: rgb(219, 219, 219);
+}
+
+/* ! About us */
+
+#fruit-basket-img {
+    max-width: 250px;
+}
+
+#about-us-divider {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+iframe {
+    max-width: 90%;
 }

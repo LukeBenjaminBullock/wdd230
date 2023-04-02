@@ -167,4 +167,23 @@
         height: 150px; 
         width: 2px; 
     }
+
+    /* ! Fresh */
+
+    #fresh-main div article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #ingredients-div {
+        padding: 1%;
+    }
+
+    #fresh-main div article div {
+        width: 190%;
+    }
+
+    h2 {
+        margin: 3%; 
+    }
 }

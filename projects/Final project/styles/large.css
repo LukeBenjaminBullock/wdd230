@@ -61,4 +61,39 @@
     footer div {
         margin-right: 20%; 
     }
+
+    /* ! Fresh */
+
+    #fresh-main div article div {
+        width: 160%;
+    }
+
+    #fresh-main div article {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    article div {
+        max-height: 40px; 
+    }
+
+    #fresh-main {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    #fresh-title-div {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #ingredients-div {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #smoothie-div {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
 }

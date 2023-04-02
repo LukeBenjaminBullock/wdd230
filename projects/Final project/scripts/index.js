@@ -78,4 +78,16 @@ function displayResults(weatherData) {
 } 
 apiFetch();
 
+// ! display the submission count to the correct index file. 
+localStorage.clear(); 
+var submissionCount = parseInt(localStorage.getItem("submissionCount")) || 0;
+var storedName = localStorage.getItem("personsName");
+var personName = document.getElementById("drinks-text");
+var drinksNumber = document.getElementById("drinks-number");
+drinksNumber.innerText = submissionCount;
+
+if (storedName != null){
+    personName.innerText = "Current Number of drinks ordered by " + storedName + ":";
+}
+
 // Todo: Display the number of drinks ordered. 
