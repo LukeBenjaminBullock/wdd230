@@ -97,7 +97,7 @@ h1 {
 
 /* ! Index page */
 
-ul {
+#primaryNav, #lowerNav {
     padding: 0px;
 }
 
@@ -130,7 +130,7 @@ header a {
     margin: 30px auto;
 }
 
-.primaryNav li a{
+.primaryNav p a{
     border: 3px solid #87f00687; /* Add border around each item */
     padding: 10px; /* Add padding inside the border */
     text-decoration: none;
@@ -138,7 +138,7 @@ header a {
     color: #00fff2;
 }
 
-.primaryNav li a:hover{
+.primaryNav p a:hover{
     background-color: #ff5353;
     color: black;
 }
