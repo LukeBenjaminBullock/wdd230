@@ -102,7 +102,7 @@ h1 {
 }
 
 header {
-    background-color: #a4620b;
+    background-color: #3e2504;
     text-align: center;
 }
 
@@ -153,11 +153,11 @@ header a {
     padding: 30px 8px; 
 }
 body {
-    background-color: #941818;
+    background-color: #bbfffc;
 }
 
 main {
-    background-color: #941818;
+    background-color: #bbfffc;
 }
 
 main div {
@@ -192,7 +192,11 @@ main div p {
 
 h1 {
     font-size: 60px;
-    color:#bbfffc;
+    color:rgb(254, 216, 61);
+}
+
+h1 {
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #weather-div {
@@ -277,7 +281,7 @@ h1 {
 }
 
 footer {
-    background-color: #a4620b;
+    background-color: #3e2504;
     text-align: center;
     padding: 30px;
     color:#bbffc6;
@@ -312,7 +316,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #000000;
+    color: #fed83d;
 }
 
 /* ! Fresh */
