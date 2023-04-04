@@ -21,12 +21,14 @@ function displayData(data) {
         const fruitCard = document.createElement("div");
         fruitCard.classList.add('fruit-card');
 
-        const fruitName = document.createElement("h2");
+        const fruitName = document.createElement("p");
         fruitName.innerText = fruit.name;
+        fruitName.className = "food-titles";
         fruitCard.appendChild(fruitName);
 
-        const nutrition = document.createElement("h3");
+        const nutrition = document.createElement("p");
         nutrition.innerText = "Nutrition facts: ";
+        nutrition.className = "nutrition-title";
         fruitCard.appendChild(nutrition);
 
         const carbohydrates = document.createElement("p");

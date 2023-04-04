@@ -193,9 +193,6 @@ main div p {
 h1 {
     font-size: 60px;
     color:rgb(254, 216, 61);
-}
-
-h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -326,21 +323,19 @@ footer a:hover {
     max-width: 600px;
 }
 
-#fresh-main div article h3,
 #fresh-main div article p {
     display: none;
 }
 
-#fresh-main div article.show h3,
-#fresh-main div article.show p {
+#fresh-main div article p.food-titles {
     display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
 }
 
-#fresh-main div article.show h3 {
-    background-color: white;
-    margin: 0px; 
-    padding: 10px; 
-    color: black;
+#fresh-main div article.show p {
+    display: block;
 }
 
 #fresh-main div article.show p {
@@ -356,8 +351,37 @@ footer a:hover {
     
 }
 
+#fresh-main div article.show p.food-titles {
+    display: none;
+}
+
 h2 {
-    margin: 5px; 
+    font-size: 60px;
+    color:rgb(254, 216, 61);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Tangerine', cursive;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 5px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 15px;
+}
+
+#ingredients-title {
+    font-size: 60px;
+    color:rgb(255, 251, 31);
+    text-shadow: 2px 2px 4px #011786;
+    font-family: 'Tangerine', cursive;
+}
+
+.nutrition-title {
+    font-size: 30px;
+    text-align: center;
 }
 
 div.fruit-card {
@@ -449,6 +473,13 @@ article.show div {
 
 #output div:nth-child(3) p:nth-child(odd) {
     background-color: rgb(219, 219, 219);
+}
+
+#blend-title {
+    font-size: 60px;
+    color:rgb(254, 216, 61);
+    text-shadow: 2px 2px 4px hsl(0, 100%, 14%);
+    font-family: 'Tangerine', cursive;
 }
 
 /* ! About us */
