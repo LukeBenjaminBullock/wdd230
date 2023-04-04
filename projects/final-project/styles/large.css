@@ -54,10 +54,6 @@
         padding-bottom: 0px; 
     }
 
-    footer h1 {
-        margin-left: 20%;
-    }
-
     footer div {
         margin-right: 20%; 
     }
@@ -68,6 +64,10 @@
 
     #time-stamp-div {
         margin-right: 0px; 
+    }
+
+    h2 {
+        margin-left: 20%; 
     }
 
     /* ! Fresh */
