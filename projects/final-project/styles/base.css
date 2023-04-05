@@ -97,6 +97,10 @@ h1 {
 
 /* ! Index page */
 
+.larger-text {
+    font-size: 20px; 
+}
+
 #primaryNav, #lowerNav {
     padding: 0px;
 }
@@ -415,7 +419,7 @@ article.show div {
 
 .first-group {
     display: grid; 
-    grid-template-columns: 100px auto;
+    grid-template-columns: 130px auto;
     grid-template-rows: auto auto auto;
     text-align: start;
     grid-gap: 10px; 
@@ -424,6 +428,34 @@ article.show div {
 
 .first-group input {
     max-width: 300px;
+}
+
+.second-group {
+    padding-top: 15px; 
+    padding-left: 5px; 
+}
+
+.second-group div {
+    display: grid; 
+    grid-template-columns: 90px auto;
+    grid-template-rows: auto auto auto;
+    text-align: start;
+    grid-gap: 10px; 
+    padding: 0%; 
+    margin: 0px;
+    margin-left: 5px;  
+}
+
+input {
+    font-size: 80%;
+}
+
+.second-group div label {
+    grid-column: 1/2;
+}
+
+.second-group div select {
+    grid-column: 2/3;
 }
 
 .third-group div {
