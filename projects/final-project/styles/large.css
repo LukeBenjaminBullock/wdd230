@@ -24,7 +24,7 @@
         padding-right: 50px; 
         display: grid; 
         grid-template-columns: 65% 35%;
-        grid-template-rows: 300px 550px auto;  
+        grid-template-rows: 300px auto auto;  
         grid-gap: 20px; 
     }
 
@@ -44,6 +44,8 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }
+
+
 
     #number-div {
         grid-column: 1/3;
